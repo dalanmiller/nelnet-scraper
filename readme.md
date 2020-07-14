@@ -8,3 +8,17 @@ There's no incentive to provide you anything other than a PDF, so being able to 
 
 - [x] Nelnet
 - [ ] ??? 
+
+
+## Instructions
+
+Create a `.env` file with the following:
+
+* `SPREADSHEET_ID` - your Google Sheets spreadsheet ID 
+* `SPREADSHEED_RANGE` - named range of within your spreadsheet to append data
+* `USERNAME` - your Nelnet username
+* `PASSWORD` - your Nelnet password
+
+Run `yarn`.
+
+Then `node index.js`
