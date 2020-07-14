@@ -1,0 +1,20 @@
+{
+  "name": "nelnet-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dalanmiller/nelnet-scraper",
+  "author": "dalan",
+  "license": "GNU General Public License v3.0",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "googleapis": "39",
+    "lodash": "^4.17.15",
+    "puppeteer": "^3.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
